@@ -304,6 +304,27 @@ footer p {
   color: var(--accent);
 }
 
+.result-figure {
+  margin: 0 0 1.1rem;
+}
+
+.result-figure img {
+  display: block;
+  width: 100%;
+  height: 240px;
+  border-radius: 3px;
+  background: #fff;
+  padding: 0.6rem;
+  object-fit: contain;
+}
+
+.result-figure figcaption {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
 .result-card > p:not(.result-meta) {
   color: var(--muted);
 }
